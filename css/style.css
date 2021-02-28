@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1,
+p,
+div {
+  font-family: Courier;
+  font-weight: bold;
+  color: white;
+}
+
+#leinwand {
+  background-image: url("../bilder/HamsterRun.jpg");
+  background-size: 100%;
+}
+
+#spielbereich {
+  position: relative;
+  width: 800px;
+}
+
+#spielendeanzeige,
+#menno,
+#gameover {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 40px 50px;
+  width: 500px;
+  height: 420px;
+  background-color: hsla(0, 50%, 50%, 0.7);
+  padding-top: 15px;
+}
+
+#winner {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 40px 50px;
+  background-color: hsla(120, 50%, 40%, 0.8);
+  width: 500px;
+  height: 400px;
+  padding-top: 15px;
+}
+
+#intro {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 40px 50px;
+  background-color: hsl(0, 0%, 50%, 0.7);
+  width: 500px;
+  height: 480px;
+  padding: 20px;
+}
+
+img {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#wrapper {
+  text-align: center;
+}
+
+#einkaufskorb {
+  width: 800px;
+  margin: 0 auto;
+  display: inline-block;
+  padding-left: 15em;
+}
+
+#einkaufskorb div {
+  float: left;
+  margin-right: 1em;
+}

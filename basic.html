@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HamsterRun</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 align="center">HamsterRun</h1>
+
+    <canvas id="leinwand" width="800" height="645"></canvas><br />
+
+    <div id="wrapper">
+      <div id="spielzeit">Spielzeit: 55</div>
+      <div id="leben">Leben: 5</div>
+      <br />
+      <div id="einkaufskorb">
+        <div id="klopapierstand">Klopapier: 0</div>
+        <div id="nudelnstand">Nudeln: 0</div>
+        <div id="mehlstand">Mehl: 0</div>
+        <div id="seifestand">Desinfektionsseife: 0</div>
+      </div>
+    </div>
+
+    <div id="intro">
+      Willkommen beim HamsterRun! <br />
+      <img src="bilder/start_philippe.jpg" width="410" height="301" /><br />
+      Hamstere die wichtigsten Dinge die man in der Corona Krise benötigt!<br />
+      Bringe diese schnellstmöglich zur Kasse, ohne anderen vermeintlich
+      infizierten Hamster zu nahe zu kommen.<br />
+      Bei mehr als 5 Kontakten bist du sicher Infiziert!
+      <br /><br />
+      <button id="startgame">Spiel starten</button>
+    </div>
+
+    <div id="spielendeanzeige">
+      ZEIT ABGELAUFEN : <br />
+      kommen Sie morgen wieder!
+      <img src="bilder/spielende.jpg" width="350" height="320" /><br />
+      <button id="start1">Neues Spiel</button>
+    </div>
+
+    <div id="gameover">
+      VERLOREN :<br />
+      Sie sind mit COVID19 infiziert!<br />
+      Sie müssen 14 Tage in Quarantäne<br />
+      <img src="bilder/game_over.jpg" width="350" height="300" /><br />
+      <button id="start2">Neues Spiel</button>
+    </div>
+
+    <div id="winner">
+      GEWONNEN : <br />
+      Sie haben Ihre essenziellen Einkäufe erledigt!<br />
+      <img src="bilder/winner.png" width="410" height="301" /><br />
+      <button id="start3">Neues Spiel</button>
+    </div>
+
+    <div id="menno">
+      SCHADE... : <br />
+      Sie haben zu wenig Artikel gehamstert!<br />
+      Kommen Sie morgen wieder!
+      <img src="bilder/menno.png" width="410" height="301" /><br />
+      <button id="start4">Neues Spiel</button>
+    </div>
+
+    <script src="js/neu.js"></script>
+  </body>
+</html>
