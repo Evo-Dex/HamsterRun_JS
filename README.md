@@ -17,7 +17,7 @@ Move Hamster with arrow keys ← → ↑ ↓
 
 # Credits
 
-Cartoon Images: @nietnuLaura
+Cartoon Images: Laura Janssens @nietnuLaura
 
 # License
 
